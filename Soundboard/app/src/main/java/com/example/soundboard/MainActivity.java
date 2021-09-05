@@ -6,9 +6,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
-    String[] boardList = {"1", "2", "3"};
+    ArrayList<BoardObject> boardList = new ArrayList<>();
 
     RecyclerView SoundView;
     SoundboardRecyclerAdapter SoundAdapter = new SoundboardRecyclerAdapter(boardList);

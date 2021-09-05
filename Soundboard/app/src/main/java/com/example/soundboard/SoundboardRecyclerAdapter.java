@@ -8,11 +8,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+
 public class SoundboardRecyclerAdapter extends RecyclerView.Adapter<SoundboardRecyclerAdapter.SoundboardViewHolder> {
 
-    private String[] boardObjects;
+    private ArrayList<BoardObject> boardObjects;
 
-    public SoundboardRecyclerAdapter (String[] boardObjects) {
+    public SoundboardRecyclerAdapter (ArrayList<BoardObject> boardObjects) {
         this.boardObjects = boardObjects;
     }
 
@@ -25,12 +27,13 @@ public class SoundboardRecyclerAdapter extends RecyclerView.Adapter<SoundboardRe
 
     @Override
     public void onBindViewHolder(@NonNull SoundboardViewHolder holder, int position) {
-        holder.itemTextView.setText(boardObjects[position]);
+        final BoardObject obj = boardObjects.get(position);
+        holder.itemTextView.setText(obj.getItemName());
     }
 
     @Override
     public int getItemCount() {
-        return boardObjects.length;
+        return boardObjects.size();
     }
 
     public class SoundboardViewHolder extends RecyclerView.ViewHolder{
