@@ -28,7 +28,14 @@ public class SoundboardRecyclerAdapter extends RecyclerView.Adapter<SoundboardRe
     @Override
     public void onBindViewHolder(@NonNull SoundboardViewHolder holder, int position) {
         final BoardObject obj = boardObjects.get(position);
+        final Integer soundID = obj.getItemID();
         holder.itemTextView.setText(obj.getItemName());
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EventHandler.startMediaPlayer(v, soundID);
+            }
+        });
     }
 
     @Override
