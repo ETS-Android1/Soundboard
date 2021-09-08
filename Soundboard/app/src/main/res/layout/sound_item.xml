@@ -12,7 +12,7 @@
         android:src="@drawable/button"/>
 
     <TextView
-        android:text="Piss On Me"
+        android:text="Test"
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:id="@+id/textViewItem"

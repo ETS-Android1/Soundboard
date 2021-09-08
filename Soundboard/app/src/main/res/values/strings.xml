@@ -1,8 +1,35 @@
 <resources>
-    <string name="app_name">Soundboard</string>
+    <string name="app_name">Trashboard</string>
     <string-array name="soundNames">
         <item>Airhorn</item>
         <item>Crash</item>
         <item>Easy</item>
+        <item>Renner</item>
+        <item>Das</item>
+        <item>New Card</item>
+        <item>Bone</item>
+        <item>Ropers</item>
+        <item>Young</item>
+        <item>Waiting</item>
+        <item>Price Is Right</item>
+        <item>Hall</item>
+        <item>Oates</item>
+        <item>Salud</item>
+        <item>Shinebox1</item>
+        <item>Anymore</item>
+        <item>Fresh</item>
+        <item>Shinebox2</item>
+        <item>Woltz</item>
+        <item>Fredo</item>
+        <item>Henderson</item>
+        <item>Billy</item>
+        <item>ODoyle1</item>
+        <item>ODoyle2</item>
+        <item>ODoyle3</item>
+        <item>Colonel Sanders</item>
+        <item>Snoop</item>
+        <item>Nate</item>
+        <item>Spooner1</item>
+        <item>Spooner2</item>
     </string-array>
 </resources>
