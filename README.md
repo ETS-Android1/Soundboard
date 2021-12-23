@@ -1,4 +1,4 @@
-# Soundboard Android App
+# Android Soundboard App
 
 This is a simple Android app that plays a selection of pre-loaded sounds. It was made with the specific intent of mocking opponents while playing card games and board games. 
 The application was developed with assistance from CodeRed at [CodeRed Development](youtube.com/channel/UC2fXwNJZGkEsN_7Q2tg-n-A) on YouTube. 
